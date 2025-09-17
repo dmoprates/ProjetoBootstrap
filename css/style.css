@@ -1,0 +1,207 @@
+/*BOOTSTRAP LOGO*/
+.navbar-brand {
+    font-size: 23px;
+}
+
+.box {
+    position: relative;
+    top: 60px;
+}
+
+section.banner {
+    padding: 110px 0;
+    position: relative;
+    min-height: 500px;
+    background-image: url('../images/bg-01.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(15, 15, 15, 0.5);
+}
+
+section.banner>.container {
+    position: relative;
+    z-index: 2;
+}
+
+.chamada-banner h2 {
+    color: #26A599;
+    font-size: 45px;
+}
+
+.chamada-banner p {
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.chamada-banner a {
+    display: inline-block;
+    color: white;
+    background: #26A599;
+    padding: 10px 18px;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+section.cadastro-lead {
+    background: #26A599;
+    padding: 20px 0;
+}
+
+section.cadastro-lead input[type=text] {
+    width: 85%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+}
+
+section.cadastro-lead h2 {
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+section.cadastro-lead form {
+    vertical-align: middle;
+}
+
+section.cadastro-lead input[type=submit] {
+    width: 15%;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+section.depoimento {
+    padding: 40px 0;
+}
+
+section.depoimento h2 {
+    color: #4b4b4b;
+}
+
+section.depoimento blockquote {
+    color: #4b4b4b;
+    font-size: 15px;
+}
+
+section.diferenciais {
+    padding: 20px 0;
+    background: rgb(225, 225, 225);
+    color: #4b4b4b;
+}
+
+.diferenciais-container {
+    margin-top: 30px;
+}
+
+.diferenciais-container h3 {
+    color: #26A599;
+}
+
+.diferenciais-container h2 {
+    font-size: 22px;
+}
+
+section.equipe h2 {
+    background: #26A599;
+    color: white;
+    text-align: center;
+    padding: 10px 2%;
+}
+
+.equipe-container {
+    padding: 30px 0;
+}
+
+.equipe-single {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    box-shadow: 8px 7px 5px -3px rgba(20, 20, 20, 0.6);
+}
+
+.user-picture {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.user-picture-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    border-radius: 25%;
+}
+
+section.final-site {
+    padding: 30px 0;
+    color: #4b4b4b;
+    background: rgb(225, 225, 225);
+}
+
+section.final-site textarea {
+    height: 120px;
+}
+
+section.final-site h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+section.final-site button {
+    margin-top: 8px;
+    width: 120px;
+}
+
+footer {
+    background: rgb(200, 200, 200);
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .user-picture {
+        width: 40%;
+        padding-top: 40%;
+        position: relative;
+    }
+
+    section.cadastro-lead form {
+        position: relative;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .chamada-banner h2 {
+        color: #26A599;
+        font-size: 35px;
+    }
+    section.cadastro-lead input[type=submit] {
+    width: 200px;
+    display: inline-block;
+    margin-top: 8px;
+}
+}
